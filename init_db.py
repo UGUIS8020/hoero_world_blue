@@ -4,7 +4,7 @@ from company_blog.models import User
 from app import app
 
 with app.app_context():
-    db.drop_all()  # すべてのテーブルを削除
+    # db.drop_all()  # すべてのテーブルを削除
     db.create_all()  # データベーススキーマを再作成
 
     # password = "123"
